@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     color: white;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,12 +47,19 @@ nav h2 {
 }
 
 .hero-image img {
+    border: white 2px solid;
     max-width: 24vw;
     border-radius: 10px;
     margin-right: 50px;
+    transition: all 0.4s ease-in-out;
 }
 
-#bg-gif {
+.hero-image:hover img {
+    max-width: 24.6vw;
+    content: url("img/front.jpg");
+}
+
+#bg-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -70,9 +78,37 @@ nav h2 {
     font-family: 'Bebas Neue';
     font-weight: 100;
     font-size: 6vw;
+    background: linear-gradient(90deg, #787b8e, #fcffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .para {
     font-size: 1.4vw;
     font-family: 'Antonio';
+}
+
+.Skills {
+    background-color: #0d0d0d;
+    padding: 5vw;
+    display: grid;
+    justify-content: center;
+}
+
+.Skills h2 {
+    font-family: 'Bebas Neue';
+    font-size: 5vw;
+}
+
+.Skills li {
+    list-style: none;
+    display: sticky;
+    font-family: 'Antonio';
+    padding: 2vh;
+    font-size: 1.4vw;
+}
+
+.Skills img {
+    filter: invert();
 }

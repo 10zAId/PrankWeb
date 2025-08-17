@@ -74,6 +74,7 @@ nav ul {
 
 .hero-image:hover img {
     max-width: 24.6vw;
+    overflow: hidden;
     content: url("img/front.jpg");
 }
 
@@ -84,7 +85,7 @@ nav ul {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -2;
 }
 
 .First {
@@ -108,8 +109,10 @@ nav ul {
 }
 
 .Skills {
-    background-color: #0d0d0d;
+    background-color: rgba(13, 13, 13, 0.7);
+    margin: 3vw;
     padding: 5vw;
+    border-radius: 5vw;
     display: grid;
     justify-content: center;
 }
@@ -121,12 +124,65 @@ nav ul {
 
 .Skills li {
     list-style: none;
-    display: sticky;
     font-family: 'Antonio';
     padding: 2vh;
     font-size: 1.4vw;
 }
 
 .Skills img {
-    filter: invert();
+    width: 3vw;
+    height: auto;
+}
+
+
+.Skills .progressHTML {
+    margin-top: 3vh;
+    display: inline-flex;
+    width: 15vw;
+    height: 0.8vw;
+    border-radius: 2vw;
+    background-color: #fcffff;
+}
+
+.Skills .p_HTML {
+    width: 12vw;
+    height: 0.8vw;
+    border-radius: 2vw;
+    background: linear-gradient(90deg, #0f0f0f, #787b8e);
+}
+
+.Skills .progressCSS {
+    margin-top: 3vh;
+    display: inline-flex;
+    width: 15vw;
+    height: 0.8vw;
+    border-radius: 2vw;
+    background-color: #fcffff;
+}
+
+.Skills .p_CSS {
+    width: 11vw;
+    height: 0.8vw;
+    border-radius: 2vw;
+    background: linear-gradient(90deg, #0f0f0f, #787b8e);
+}
+
+.HTML_p,
+.CSS_p {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    position: relative;
+}
+
+.number_HTML {
+    position: absolute;
+    right: 0;
+    top: 1.2vw;
+}
+
+.number_CSS {
+    position: absolute;
+    right: 0;
+    top: 1.2vw;
 }

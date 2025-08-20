@@ -103,7 +103,7 @@ nav ul {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.para {
+.Description {
     font-size: 1.4vw;
     font-family: 'Antonio';
 }
@@ -134,55 +134,16 @@ nav ul {
     height: auto;
 }
 
-
-.Skills .progressHTML {
-    margin-top: 3vh;
-    display: inline-flex;
-    width: 15vw;
-    height: 0.8vw;
-    border-radius: 2vw;
-    background-color: #fcffff;
-}
-
-.Skills .p_HTML {
+.HTML_bar {
     width: 12vw;
     height: 0.8vw;
     border-radius: 2vw;
     background: linear-gradient(90deg, #0f0f0f, #787b8e);
 }
 
-.Skills .progressCSS {
-    margin-top: 3vh;
-    display: inline-flex;
-    width: 15vw;
-    height: 0.8vw;
-    border-radius: 2vw;
-    background-color: #fcffff;
-}
-
-.Skills .p_CSS {
+.CSS_bar {
     width: 11vw;
     height: 0.8vw;
     border-radius: 2vw;
     background: linear-gradient(90deg, #0f0f0f, #787b8e);
-}
-
-.HTML_p,
-.CSS_p {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    position: relative;
-}
-
-.number_HTML {
-    position: absolute;
-    right: 0;
-    top: 1.2vw;
-}
-
-.number_CSS {
-    position: absolute;
-    right: 0;
-    top: 1.2vw;
 }

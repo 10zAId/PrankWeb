@@ -1,0 +1,21 @@
+.number {
+    position: absolute;
+    right: 0;
+    top: 1.2vw;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    position: relative;
+}
+
+.bar_bg {
+    margin-top: 3vh;
+    display: inline-flex;
+    width: 15vw;
+    height: 0.8vw;
+    border-radius: 2vw;
+    background-color: #fcffff;
+}

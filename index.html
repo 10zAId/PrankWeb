@@ -5,8 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="constant/constant.css">
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- VanillaTilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
 </head>
 
 <body>
@@ -28,10 +41,10 @@
     <video autoplay muted loop id="bg-video">
         <source src="img/bg.mp4" type="video/mp4">
     </video>
-    <section class="hero">
+    <section class="hero" data-aos="fade-up">
         <div class="hero-text">
             <h3 class="First">I am <span>Zeeshan Siddiqui</span></h3>
-            <h1 class="Name">Pro NaLaik Admi</h1>
+            <h1 class="Name"><span class="typed"></span></h1>
             <p class="Description">
                 As a pro na laik admi, i do nothing all day and waste time. Suiiiiiiiii.
             </p>
@@ -50,7 +63,6 @@
                     <span class="HTML_bar"></span>
                 </span>
                 <h5 class="number">80%</h5>
-                </div>
             </li>
             <li class="entry">
                 <img src="img/css.png" alt="css" srcset="">
@@ -62,14 +74,15 @@
             <li>Thats all! 🙂</li>
         </ul>
     </section>
-    <section class="Projects">
+    <section class="Projects" data-aos="fade-right">
+        <h2>Projects : </h2>
     </section>
     <section class="Reviews">
     </section>
     <section class="Contact Me">
     </section>
 
-    <script src="j.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

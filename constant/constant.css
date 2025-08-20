@@ -19,3 +19,27 @@
     border-radius: 2vw;
     background-color: #fcffff;
 }
+
+.typed-cursor {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: 2px;
+    font-size: inherit;
+    animation: blink 0.7s infinite;
+    background: linear-gradient(90deg, #3c3f48, #fcffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

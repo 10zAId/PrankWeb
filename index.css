@@ -38,12 +38,15 @@ nav ul {
 }
 
 .List li {
+    text-decoration: none;
     padding: 1.3vw 4vw;
     border-left: 1px solid white;
 }
 
 .List li:last-child {
     border-right: 1px solid white;
+    border-left: 1px solid white;
+    ;
 }
 
 .Logo h2 {

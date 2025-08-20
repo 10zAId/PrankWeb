@@ -8,7 +8,6 @@ new Typed('.typed', {
     cursorChar: '_'
 });
 
-
 // ScrollReveal for sections
 ScrollReveal().reveal('.hero-text', {
     delay: 200,

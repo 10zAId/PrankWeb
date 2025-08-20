@@ -7,6 +7,7 @@
     margin: 0;
     color: white;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 body {
@@ -38,7 +39,6 @@ nav ul {
 }
 
 .List li {
-    text-decoration: none;
     padding: 1.3vw 4vw;
     border-left: 1px solid white;
 }

@@ -123,18 +123,30 @@ nav ul {
 .Skills h2 {
     font-family: 'Bebas Neue';
     font-size: 5vw;
+    align-items: center;
+    text-align: center;
+}
+
+.Skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw 1vw;
 }
 
 .Skills li {
     list-style: none;
     font-family: 'Antonio';
-    padding: 2vh;
+    padding: 3vh;
+    background-color: rgba(13, 13, 13, 0.9);
+    border-radius: 10px;
+    text-align: center;
     font-size: 1.4vw;
 }
 
 .Skills img {
     width: 3vw;
     height: auto;
+    filter: invert();
 }
 
 .HTML_bar {
@@ -149,4 +161,20 @@ nav ul {
     height: 0.8vw;
     border-radius: 2vw;
     background: linear-gradient(90deg, #0f0f0f, #787b8e);
+}
+
+.PY_bar {
+    width: 8vw;
+    height: 0.8vw;
+    border-radius: 2vw;
+    background: linear-gradient(90deg, #0f0f0f, #787b8e);
+}
+
+.Projects {
+    background-color: rgba(13, 13, 13, 0.7);
+    margin: 3vw;
+    padding: 5vw;
+    border-radius: 5vw;
+    display: grid;
+    justify-content: center;
 }
